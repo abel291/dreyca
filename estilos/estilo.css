@@ -1,0 +1,139 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+body{
+	;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.center{
+	text-align: center;
+}
+.blanco{
+	color: white;
+}
+.btn-color:hover,
+.btn-color:focus,
+.btn-color:active{
+color:white;
+}
+/*__________________________pie de pagina___________________________________*/
+.footer_top{
+	background: #151515;
+	color: white;
+	min-height: 100px;	    
+        
+}
+.footer_top a {
+	color:#777;	 
+}
+.footer_bot{
+	background-color: #191919;
+	min-height: 50px;
+	text-align: center;
+	padding: 15px;	
+}
+/*__________________________principal___________________________________*/
+
+.sombra_grande{
+	opacity: 0.95;
+}
+.thumbnail span{
+	text-transform:capitalize ;
+}
+.fondo,.list-group,.well_p,#carousel_prin{	
+	 background:#fff  ;
+}
+
+.sombra_generic,.list-group,.well_p,#carousel_prin {
+	box-shadow: 1px 2px 2px #BDBDBD;
+}
+.nav > li > .amarillo_h:hover,
+.nav > li > .amarillo_h:focus,
+.amarillos_b{
+	background: #FFC107;
+	
+}
+.nav > li > .azul_h:focus,
+.nav > li > .azul_h:hover,
+.azul_b{
+	background: #00BCD4;
+	
+}
+.nav > li > .rojo_h:hover,
+.nav > li > .rojo_h:focus,
+.rojo_b{
+	background: #E91E63;
+	
+}
+.nav > li > a{
+	margin-left: 5px;
+	border-radius: 2px;
+}
+.blanco_c{
+	background: #fff;
+	color: #212121;
+}
+.negro_c{
+	background:#212121; 
+	color: #fff;
+}
+.container-fluid{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.icon_prin{	
+	padding: 35px;
+	font-size: 40px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.redes{
+	display: inline-block;	
+	font-size: 50px;	
+	padding:  50px;
+	height: 100%;	
+}
+.siguenos span{
+	color: #ccc;
+	font-size: 30px;
+	padding: 10px;
+}
+.siguenos a{
+	text-decoration: none;
+}
+.siguenos span:hover{
+	color: #fff;	
+}
+/*--------------------------------------------------------------*/
+.titulos_prin{
+	color: white;	
+	position: absolute;
+	display: inline-block;
+	top: 41%;
+	width: 100%;}
+.td_serv{
+	height: 140px;	
+}
+
+/*-----------------------------Tablero---------------------------------*/
+.panel{
+	box-shadow: 1px 2px 2px #BDBDBD;
+	
+}
+.serv_tabla{
+	width: 30px;
+	height: 30px;
+	border-radius: 4px;
+}
+textarea{
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    width: 100%;
+	resize:vertical;
+	min-height:120px;
+	max-height:350px;
+}
